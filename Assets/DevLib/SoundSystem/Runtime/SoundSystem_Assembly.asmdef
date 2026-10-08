@@ -1,0 +1,17 @@
+{
+    "name": "SoundSystem_Assembly",
+    "rootNamespace": "",
+    "references": [
+        "GUID:76abae62df936544da8692cfb1a3e934",
+        "GUID:5643aeb9fea9f4e419f706b762fabe14"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

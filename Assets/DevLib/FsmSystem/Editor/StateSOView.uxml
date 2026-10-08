@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="Container" style="flex-grow: 1;">
+        <ui:TextField label="State name" placeholder-text="스테이트의 이름을 입력하세요." name="StateNameField" binding-path="stateName"/>
+        <ui:DropdownField label="State class" name="ClassNameDropdown" binding-path="className"/>
+        <ui:IntegerField label="Asset Index" name="AssetIndexField" binding-path="assetIndex"/>
+        <uie:ObjectField label="State param" name="StateParamField" type="DevLib.AnimatorSystem.HashDataSO, AnimatorSystem_assembly" binding-path="stateParam"/>
+    </ui:VisualElement>
+</ui:UXML>

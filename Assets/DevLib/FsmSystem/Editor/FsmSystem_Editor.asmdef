@@ -1,0 +1,18 @@
+{
+    "name": "FsmSystem_Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:050f5bf29c484b708aa1258c241ddbc4"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

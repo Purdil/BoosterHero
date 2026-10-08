@@ -1,0 +1,17 @@
+{
+    "name": "SkillSystem_Assembly",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d80c6f192861519408d558611f4dc5ad",
+        "GUID:87186655acd904d46af01a2ca7074885"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
