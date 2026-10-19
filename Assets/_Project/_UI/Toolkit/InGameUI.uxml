@@ -1,0 +1,18 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/_Project/_UI/Toolkit/_Uss/InGame.uss?fileID=7433441132597879392&amp;guid=5922154032e139245aa8219485f78663&amp;type=3#InGame"/>
+    <ui:VisualElement name="mian-container">
+        <ui:VisualElement name="score-container" class="score-container">
+            <ui:Label text="Label" name="score-cur" data-source="project://database/Assets/_Project/_Data/_SO/ScoreViewModel.asset?fileID=11400000&amp;guid=d19df4920b54bd2419e7eded80740949&amp;type=2#ScoreViewModel" data-source-path="" class="score score_cur">
+                <Bindings>
+                    <ui:DataBinding property="text" data-source-path="CurrentScore" data-source="project://database/Assets/_Project/_Data/_SO/ScoreViewModel.asset?fileID=11400000&amp;guid=d19df4920b54bd2419e7eded80740949&amp;type=2#ScoreViewModel" binding-mode="ToTarget"/>
+                </Bindings>
+            </ui:Label>
+            <ui:Label text="Label" name="score-max" data-source="project://database/Assets/_Project/_Data/_SO/ScoreViewModel.asset?fileID=11400000&amp;guid=d19df4920b54bd2419e7eded80740949&amp;type=2#ScoreViewModel" data-source-path="MaxScore" class="score score_max">
+                <Bindings>
+                    <ui:DataBinding property="text" data-source-path="MaxScore" data-source="project://database/Assets/_Project/_Data/_SO/ScoreViewModel.asset?fileID=11400000&amp;guid=d19df4920b54bd2419e7eded80740949&amp;type=2#ScoreViewModel" binding-mode="ToTarget"/>
+                </Bindings>
+            </ui:Label>
+        </ui:VisualElement>
+        <ui:VisualElement name="info-container"/>
+    </ui:VisualElement>
+</ui:UXML>

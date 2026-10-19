@@ -1,0 +1,20 @@
+.score-container {
+    justify-content: flex-start;
+    align-self: center;
+    width: 1000px;
+    -unity-text-align: upper-center;
+    margin-top: 100px;
+}
+
+.score_cur {
+    font-size: 200px;
+    -unity-font-definition: url("project://database/Assets/_Project/_Graphics/Font/DoHyeon-Regular.ttf?fileID=12800000&guid=770a0cffee8351444b7810d51fa7230a&type=3#DoHyeon-Regular");
+    -unity-text-align: upper-center;
+}
+
+.score_max {
+    -unity-font-definition: url("project://database/Assets/_Project/_Graphics/Font/DoHyeon-Regular.ttf?fileID=12800000&guid=770a0cffee8351444b7810d51fa7230a&type=3#DoHyeon-Regular");
+    font-size: 100px;
+    -unity-text-align: upper-center;
+    color: rgb(189, 166, 34);
+}
